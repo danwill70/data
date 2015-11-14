@@ -1,4 +1,4 @@
-days=5
+days=1
 total_commit=10
 size=$((days*24*60))
 a=$(shuf -i 1-$size -n $total_commit | sort -r -n)
